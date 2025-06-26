@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Sign-in keys and sensitive data
+app/src/main/res/raw/auth_service.json
