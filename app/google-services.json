@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "214676426805",
+    "project_id": "it3a-grp1-manila",
+    "storage_bucket": "it3a-grp1-manila.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214676426805:android:2116666fac98e372bc617c",
+        "android_client_info": {
+          "package_name": "com.example.it3a_grp1_manila"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5KmjKkmIK5Lru4yhGo4QnThuLQZ6mFxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TopHealth</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="healthcare_card_array">
+        <item>Maxicare</item>
+        <item>Intellicare</item>
+        <item>Avega</item>
+        <item>Medicard</item>
+        <item>ValuCare</item>
+        <item>PhilCare</item>
+        <item>CocoLife</item>
+        <item>Amaphil</item>
+        <item>Asia Care</item>
+        <item>Asian Life</item>
+        <item>Ben Life</item>
+        <item>Carewell Health System</item>
+        <item>Cigna</item>
+        <item>EastWest Healthcare</item>
+        <item>Flexicare</item>
+        <item>Generali Philippines</item>
+        <item>HMI Health Maintance Inc.</item>
+        <item>HPPI</item>
+        <item>Ibero Asistencia</item>
+        <item>I Care (Insular Healthcare)</item>
+        <item>Kaiser International</item>
+        <item>Lacson &amp; Lacson Insurance brokerage</item>
+        <item>Life &amp; Health</item>
+        <item>Medasia</item>
+        <item>Medilink</item>
+        <item>Medicare Plus</item>
+        <item>Medocare Health System Inc</item>
+        <item>Metrocare Health System Inc</item>
+        <item>Pacific Cross</item>
+        <item>Sun Life Grepa Financial</item>
+    </string-array>
+
+
+</resources>

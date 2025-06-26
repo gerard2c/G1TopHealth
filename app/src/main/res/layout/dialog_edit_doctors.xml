@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/cb_costales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jefferson Abrea Costales" />
+
+    <CheckBox
+        android:id="@+id/cb_manila"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Russel Ford D. Manila" />
+
+    <CheckBox
+        android:id="@+id/cb_jao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pauline Kaye V. Jao" />
+
+    <CheckBox
+        android:id="@+id/cb_escueta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gerard Escueta" />
+</LinearLayout>

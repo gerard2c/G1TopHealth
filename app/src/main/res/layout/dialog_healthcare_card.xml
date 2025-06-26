@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinner_provider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="#616161"
+        android:popupBackground="#2F343F"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <EditText
+        android:id="@+id/edit_account_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Account Number (00-00-00000-00000-00)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0BEC5"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edit_card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Card Number (0000-0000-0000-0000)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0BEC5"
+        android:padding="12dp" />
+</LinearLayout>

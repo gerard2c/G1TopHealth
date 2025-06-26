@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F343F"
+    android:fitsSystemWindows="true">
+
+    <!-- Title: Appointment -->
+    <TextView
+        android:id="@+id/title_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- CardView for Book Appointment Button -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_book_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#455A64"
+        android:layout_centerInParent="true">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/book_appointment_button"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:text="Book Appointment"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            app:cornerRadius="16dp"
+            app:backgroundTint="@android:color/transparent"
+            android:padding="12dp" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Admin UI Elements -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add_time_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_appointment"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Add Time Slot"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#455A64"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_view_appointments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_add_time_slot"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="View Booked Appointments"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#455A64"
+        android:visibility="gone" />
+
+    <!-- NEW: Analytics Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_view_analytics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_view_appointments"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="View Analytics"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#455A64"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_time_slots"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/btn_view_analytics"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:visibility="gone" />
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:background="#FFFFFF"
+        app:itemIconTint="@color/bottom_nav_icon_color"
+        app:itemTextColor="@color/bottom_nav_icon_color"
+        app:menu="@menu/bottom_navigation_menu" />
+</RelativeLayout>

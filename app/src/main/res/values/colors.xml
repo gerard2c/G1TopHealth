@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#1C1C1E</color>
+    <color name="gray1">#2F343F</color>
+    <color name="red">#D32F2F</color>
+    <color name="blue">#9EC6F3</color>
+    <color name="bottom_nav_item_color">#B0BEC5</color> <!-- Light grey for unselected items -->
+    <color name="bottom_nav_selected_color">#3F51B5</color> <!-- Indigo for selected item -->
+    <color name="colorPrimary">#6200EE</color>
+
+</resources>

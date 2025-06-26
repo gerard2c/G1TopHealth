@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ModernAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/modern_dialog_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/ModernDialogAnimation</item>
+        <item name="buttonBarPositiveButtonStyle">@style/ModernDialogButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/ModernDialogButton</item>
+        <item name="buttonBarNeutralButtonStyle">@style/ModernDialogButton</item>
+    </style>
+
+    <style name="ModernDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="ModernDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+</resources>
